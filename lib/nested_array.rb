@@ -35,6 +35,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   matrix[row][column] = new_value
+  matrix
 end
 
   # Build an array that contains both of the above arrays
